@@ -1,5 +1,4 @@
 module MyEnumerable
-
   def all?(&block)
     each do |item|
       return false unless block.call(item)
