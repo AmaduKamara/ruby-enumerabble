@@ -8,9 +8,7 @@ class MyList
   end
 
   def each
-    @list.each do |item|
-      yield item
-    end
+    @list.each { |item| yield item }
   end
 end
 
